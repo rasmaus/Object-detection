@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 25
+names: ['Beans', 'Cake', 'Candy', 'Cereal', 'Chips', 'Chocolate', 'Coffee', 'Corn', 'Fish', 'Flour', 'Honey', 'Jam', 'Juice', 'Milk', 'Nuts', 'Oil', 'Pasta', 'Rice', 'Soda', 'Spices', 'Sugar', 'Tea', 'Tomato Sauce', 'Vinegar', 'Water']
+
+roboflow:
+  workspace: groceries-71i3a
+  project: retail-store-item-detection-f4ygb
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/groceries-71i3a/retail-store-item-detection-f4ygb/dataset/2
